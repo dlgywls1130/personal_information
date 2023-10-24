@@ -1,0 +1,150 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+
+  body{
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+/* 개인정보취급방침 */
+
+.mb30{margin-bottom: 30px;}
+
+.personal_wrap{
+    max-width: 1280px;
+    margin:170px auto ;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.paragraph_wrap{
+    margin-bottom: 40px;
+}
+
+.page_title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 132px;
+}
+
+.paragraph_title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.paragraph_wrap p, .first-p{
+ font-size: 20px;
+ font-weight: 300;
+ line-height: 29px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.table_wrap{
+    margin: 10px 0 60px;
+}
+
+.table_wrap tr.first_table{
+    height: 60px;
+
+}
+
+.table_wrap tr th{
+vertical-align: middle;
+font-size: 20px;
+font-weight: 300;
+border: 1px solid #DCDCDC;
+word-break: keep-all;
+}
+
+.table_wrap tr th:nth-child(1){
+    width: 15%;
+}
+
+.table_wrap tr th:nth-child(2){
+    width: 35%;
+}
+
+.table_wrap tr th:nth-child(3){
+    width: 35%;
+}
+
+.table_wrap tr th:nth-child(4){
+    width: 15%;
+}
+
+.table_wrap tr.body_table{
+    height: 180px;
+
+}
+
+.table_wrap tr.body_table td{
+    vertical-align: middle;
+    font-size: 20px;
+font-weight: 300;
+border: 1px solid #DCDCDC;
+padding: 60px 20px 30px;
+box-sizing:border-box;
+line-height: 29px;
+}
+
+.nowrap_text{
+    white-space: nowrap;
+}
+
+.word-break{
+    word-break:keep-all;
+}
+
+
+.table_wrap.two_table tr th{
+    width: 20%;
+}
+
+.table_wrap.two_table .body_table  td{
+    height: 140px;
+    padding: 40px 20px;
+}
+
+.inner_table table tr{
+    height: 60px;
+}
+
+.inner_table table tr th{
+    vertical-align: middle;
+font-size: 20px;
+font-weight: 300;
+border: 1px solid #DCDCDC;
+word-break: keep-all;
+}
+
+.inner_table table th:nth-child(1){
+    width: 20%;
+}
+
+.inner_table table th:nth-child(2){
+    width: 35%;
+}
+
+.inner_table table th:nth-child(3){
+    width: 35%;
+}
+
+.inner_table table th:nth-child(4){
+    width: 10%;
+}
+
