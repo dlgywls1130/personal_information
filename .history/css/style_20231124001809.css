@@ -186,20 +186,15 @@ height: 140px;
 
 
 /* selectbox */
-
-.select-box {
-display: flex;
-align-items: center;
-justify-content: flex-end;
-}
 .select-box .nice-select{
     background:transparent;
     border: solid 1px #DCDCDC;
     border-radius: 5px;
-    width: 240px;
+    width: 284px;
     height: 36px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 /* mobile */
